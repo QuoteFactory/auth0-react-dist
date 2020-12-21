@@ -1,0 +1,40 @@
+{
+  "author": "Auth0",
+  "name": "@auth0/auth0-react",
+  "version": "1.2.0+83950ee6",
+  "description": "Auth0 SDK for React Single Page Applications (SPA)",
+  "keywords": [
+    "auth0",
+    "login",
+    "Authorization Code Grant Flow",
+    "PKCE",
+    "Single Page Application authentication",
+    "SPA authentication",
+    "react"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "main": "dist/auth0-react.cjs.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/auth0-react.esm.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0/auth0-react/issues"
+  },
+  "homepage": "https://github.com/auth0/auth0-react#readme",
+  "peerDependencies": {
+    "react": "^16.11.0 || ^17",
+    "react-dom": "^16.11.0 || ^17"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@auth0/auth0-spa-js": "https://github.com/QuoteFactory/auth0-spa-js-dist.git"
+  },
+  "yalcSig": "83950ee6a02183000803233ff4a6e7ca"
+}
